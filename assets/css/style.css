@@ -1,0 +1,67 @@
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.container{
+    width: 90%;
+    margin:0 auto;
+}   
+
+h2{
+    position: relative;
+}
+
+.title h2::after{
+    content: "";
+    width: 120px;
+    height:3px;
+    background-color: rgb(55, 39, 128);
+
+    position: absolute;
+    top:40px;
+    left:0;
+    
+}
+p{
+    position: relative;
+    top:10px;
+}
+
+i{
+    font-size: 30px;
+}
+
+.species {
+    padding: 30px;
+    border: 1px solid grey;
+    
+}   
+.digital:hover{
+    background-color: blueviolet
+}
+.design:hover{
+    background-color: yellow
+}
+.code:hover{
+    background-color:blue
+}
+.system:hover{
+background-color:rgb(93, 214, 93)
+}
+.row{
+    display:flex;
+    margin-top: 70px;
+}
+.row img{
+    width: 200px;
+    height: 200px;
+}
+.about content{
+    margin-left: 30px;
+}
