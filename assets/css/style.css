@@ -43,17 +43,21 @@ i{
     
 }   
 .digital:hover{
-    background-color: blueviolet
+    background-color: rgb(158, 108, 206)
 }
 .design:hover{
-    background-color: yellow
+    background-color: rgb(230, 230, 124)
 }
 .code:hover{
-    background-color:blue
+    background-color:rgb(69, 97, 189)
 }
 .system:hover{
 background-color:rgb(93, 214, 93)
 }
+@media  only screen and (max-width:991px){
+    
+}
+
 .row{
     display:flex;
     margin-top: 70px;
@@ -64,4 +68,16 @@ background-color:rgb(93, 214, 93)
 }
 .about content{
     margin-left: 30px;
+}
+
+.about{
+    display: flex;
+    margin-top: 50px;
+}
+
+.about .contens{
+    margin-left: 30px;
+}
+@media only screen and(max-width:992px) {
+    
 }
